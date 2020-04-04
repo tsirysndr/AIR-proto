@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package air;
+
+message GeneralUpdateRequest {}
+message GetAccountDetailsRequest {}
+message GetAccountManagementCountersRequest {}
+message GetAccountServiceFeeDataRequest {}
+message GetAccumulatorsRequest {}
+message GetAllowedServiceClassesRequest {}
+message GetBalanceAndDateRequest {}
+message GetCapabilitiesRequest {}
+message GetDiscountInformationRequest {}
+message GetFaFListRequest {}
+message GetOffersRequest {}
+message GetRefillOptionsRequest {}
+message GetUsageThersholdsOptionsAndCountersRequest {}
+message RefillRequest {}
+message UpdateAccountDetailsRequest {}
+message UpdateBalanceAndDateRequest {}
+message UpdateCommunityListRequest {}
+message UpdateFaFListRequest {}
+message UpdateOfferRequest {}
+message UpdateServiceClassRequest {}
+message UpdateSubscriberSegmentationRequest {}
+message UpdateUsageThresholdsAndCountersRequest {}
+
+message GeneralUpdateResponse {}
+message GetAccountDetailsResponse {}
+message GetAccountManagementCountersResponse {}
+message GetAccountServiceFeeDataResponse {}
+message GetAccumulatorsResponse {}
+message GetAllowedServiceClassesResponse {}
+message GetBalanceAndDateResponse {}
+message GetCapabilitiesResponse {}
+message GetDiscountInformationResponse {}
+message GetFaFListResponse {}
+message GetOffersResponse {}
+message GetRefillOptionsResponse {}
+message GetUsageThersholdsOptionsAndCountersResponse {}
+message RefillResponse {}
+message UpdateAccountDetailsResponse {}
+message UpdateBalanceAndDateResponse {}
+message UpdateCommunityListResponse {}
+message UpdateFaFListResponse {}
+message UpdateOfferResponse {}
+message UpdateServiceClassResponse {}
+message UpdateSubscriberSegmentationResponse {}
+message UpdateUsageThresholdsAndCountersResponse {}

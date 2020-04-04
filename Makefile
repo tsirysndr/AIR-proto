@@ -1,0 +1,2 @@
+lint:
+			buf check lint

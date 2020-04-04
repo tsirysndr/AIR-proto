@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package air;
+
+import "common.proto";
+
+service AccountInformationAndRefill {
+  rpc GeneralUpdate(GeneralUpdateRequest) returns (GeneralUpdateResponse);
+  rpc GetAccountDetails(GetAccountDetailsRequest)
+      returns (GetAccountDetailsResponse);
+  rpc GetAccountManagementCounters(GetAccountManagementCountersRequest)
+      returns (GetAccountManagementCountersResponse);
+  rpc GetAccountServiceFeeData(GetAccountServiceFeeDataRequest)
+      returns (GetAccountServiceFeeDataResponse);
+  rpc GetAccumulators(GetAccumulatorsRequest) returns (GetAccumulatorsResponse);
+  rpc GetAllowedServiceClasses(GetAllowedServiceClassesRequest)
+      returns (GetAllowedServiceClassesResponse);
+  rpc GetBalanceAndDate(GetBalanceAndDateRequest)
+      returns (GetBalanceAndDateResponse);
+  rpc GetCapabilities(GetCapabilitiesRequest) returns (GetCapabilitiesResponse);
+  rpc GetDiscountInformation(GetDiscountInformationRequest)
+      returns (GetDiscountInformationResponse);
+  rpc GetFaFList(GetFaFListRequest) returns (GetFaFListResponse);
+  rpc GetOffers(GetOffersRequest) returns (GetOffersResponse);
+  rpc GetRefillOptions(GetRefillOptionsRequest)
+      returns (GetRefillOptionsResponse);
+  rpc GetUsageThersholdsOptionsAndCounters(
+      GetUsageThersholdsOptionsAndCountersRequest)
+      returns (GetUsageThersholdsOptionsAndCountersResponse);
+  rpc Refill(RefillRequest) returns (RefillResponse);
+  rpc UpdateAccountDetails(UpdateAccountDetailsRequest)
+      returns (UpdateAccountDetailsResponse);
+  rpc UpdateBalanceAndDate(UpdateBalanceAndDateRequest)
+      returns (UpdateBalanceAndDateResponse);
+  rpc UpdateCommunityList(UpdateCommunityListRequest)
+      returns (UpdateCommunityListResponse);
+  rpc UpdateFaFList(UpdateFaFListRequest) returns (UpdateFaFListResponse);
+  rpc UpdateOffer(UpdateOfferRequest) returns (UpdateOfferResponse);
+  rpc UpdateServiceClass(UpdateServiceClassRequest)
+      returns (UpdateServiceClassResponse);
+  rpc UpdateSubscriberSegmentation(UpdateSubscriberSegmentationRequest)
+      returns (UpdateSubscriberSegmentationResponse);
+  rpc UpdateUsageThresholdsAndCounters(UpdateUsageThresholdsAndCountersRequest)
+      returns (UpdateUsageThresholdsAndCountersResponse);
+}
